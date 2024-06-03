@@ -1,24 +1,44 @@
 /* eslint-disable no-undef */
 
+//let prompt toUpper(alert: any); {
+ //let return alert.toUpperCase();
+//}
+
 let person = prompt('Please enter your name', '');
 
 if (person !== null) prompt ('Hello ' + person + '! How are you today?');
 
-let place = prompt(' Where are you located', '');
+let parent = prompt ('Am I parent?', '');
 
-if (place !== null) prompt ( 'Is ' + place + ' Fun?');
+if (parent !== 'Yes'); {
+  alert ('True'); 
+// else ('False');
+}
 
-let food = prompt ( 'Do you have a favorite food?', 'What is it?');
+let code = prompt ( 'Do I love coding?', '');
 
-if (food !== null) prompt ( 'Great ' + food + ' sounds delicious!');
-
-let drink = prompt ('Do you have a favorite drink?', 'What is it?');
-
-if (drink !== null) prompt ( 'I like ' + drink + ' too!');
+if (code !== 'Yes'); {
+  alert ('True');
+  //else ('False');
+}
 
 let favColor = prompt (' Is my favorite color green?', '');
 
 if (favColor !== 'Yes'); {
   alert ('True');
+  //else ('False');
+} 
+
+let speaking = prompt (' Do I like public speaking', '');
+
+if (speaking !== 'Yes'); {
+  alert ('True');
+  //else ('False');
 }
 
+let dance = prompt (' Do I like to dance?', '');
+
+if (dance !== 'Yes'); {
+  alert ('True');
+  //else ('False');
+}
