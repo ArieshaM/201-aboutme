@@ -1,17 +1,25 @@
-
+//*eslintrc.json
 
 let person = prompt('Please enter your name', '');
 
 if (person !== null) prompt ('Hello ' + person + '! How are you today?');
 
-let place = prompt(' Where are you located', '');
+let code = prompt(' Do I love to Code', '');{
+if ('yes') alert ('True');
+}
 
-if (place !== null) prompt ( 'Is ' + place + ' Fun?');
+let parent = prompt( 'Am I Parent?', ''); {
+if ('yes') alert ('True');
+}
 
-let food = prompt( 'Do you have a favorite food?', '');
+let food = prompt( 'Are veggies my favorite food?', ''); {
+if ('yes') alert ('True');
+}
 
-if (food !== null) prompt ( 'That ' +  food + ' sounds delicious!');
+let jesus = prompt ('Am I a grateful believer of Jesus Christ?', ''); {
+if ('yes') alert ('True!');
+}
 
-let drink = prompt ('Do you have a favorite drink?', 'What is it?');
-
-if (drink !== null) prompt ('I like that' + drink + 'too!');
+let travel = prompt (' Do I like to travel?', ''); {
+if ('yes') alert ('True!');
+}
