@@ -1,5 +1,8 @@
 //*eslintrc.json
 
+let text = "yes!";
+let True = text.toUpperCase();
+
 let person = prompt('Please enter your name', '');
 
 if (person !== null) prompt ('Hello ' + person + '! How are you today?');
@@ -16,7 +19,7 @@ let food = prompt( 'Are veggies my favorite food?', ''); {
 if ('yes') alert ('True');
 }
 
-let jesus = prompt ('Am I a grateful believer of Jesus Christ?', ''); {
+let Jesus = prompt ('Am I a grateful believer of Jesus Christ?', ''); {
 if ('yes') alert ('True!');
 }
 
