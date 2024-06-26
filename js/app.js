@@ -5,35 +5,49 @@
 
 let person = prompt('Please enter your name', '');
 
-if (person !== null) prompt ('Hello ' + person + '! How are you today?');
+if (person !== null) {
+  alert('Hello ' + person + '! How are you today?');
+} else {
+  alert("You didn't tell me your name!")
+}
 
 let response = prompt(' Do I love to Code', '');
 if (response.toLowerCase() === 'y' || response.toLowerCase() === 'yes') {
   alert('True');
+  //console.log('True')
 } else {
   alert ('False');
 }
-  // if (code.toLowerCase('yes or y')) alert('True'); else
-  //   alert ('False');
-
-
-let parent = prompt( 'Am I Parent?', ''); {
-  if (parent.toLowerCase('yes or y')) alert ('True'); else
-    alert ('False');
+ 
+response = prompt(' Am I Parent?', '');
+if (response.toLowerCase() === 'y' || response.toLowerCase() === 'yes') {
+  alert('True');
+    //console.log('True')
+} else {
+  alert ('False');
 }
 
-let food = prompt( 'Are veggies my favorite food?', ''); {
-  if (food.toLowerCase('yes or y')) alert ('True'); else
-    alert ('False');
+response = prompt(' Are veggies my favorite food?', '');
+if (response.toLowerCase() === 'y' || response.toLowerCase() === 'yes') {
+  alert('True');
+    //console.log('True')
+} else {
+  alert ('False');
 }
 
-let Jesus = prompt ('Am I a grateful believer of Jesus Christ?', ''); {
-  if (Jesus.toLowerCase('yes or y')) alert ('True!'); else
-    alert ('False');
+response = prompt(' Do I love Jesus?', '');
+if (response.toLowerCase() === 'y' || response.toLowerCase() === 'yes') {
+  alert('True');
+    //console.log('True')
+} else {
+  alert ('False');
 }
 
-let travel = prompt (' Do I like to travel?', ''); {
-  if (travel.toLowerCase('yes or y')) alert ('True!'); else
-    alert ('False');
+response = prompt(' Do I love to travel?', '');
+if (response.toLowerCase() === 'y' || response.toLowerCase() === 'yes') {
+  alert('True');
+    //console.log('True')
+} else {
+  alert ('False');
 }
 
