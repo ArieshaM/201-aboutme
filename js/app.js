@@ -7,10 +7,15 @@ let person = prompt('Please enter your name', '');
 
 if (person !== null) prompt ('Hello ' + person + '! How are you today?');
 
-let code = prompt(' Do I love to Code', '');{
-  if (code.toLowerCase('yes or y')) alert('True'); else
-    alert ('False');
+let response = prompt(' Do I love to Code', '');
+if (response.toLowerCase() === 'y' || response.toLowerCase() === 'yes') {
+  alert('True');
+} else {
+  alert ('False');
 }
+  // if (code.toLowerCase('yes or y')) alert('True'); else
+  //   alert ('False');
+
 
 let parent = prompt( 'Am I Parent?', ''); {
   if (parent.toLowerCase('yes or y')) alert ('True'); else
