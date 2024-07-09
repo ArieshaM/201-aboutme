@@ -1,0 +1,43 @@
+# Lesson 5 Reading
+
+## HTML Media
+
+1. What is a real world use case for the alt attribute being used in a website?
+Its value is supposed to be a textual description of the image, for use in situations where the image cannot be seen/displayed or takes a long time to render because of a slow internet connection.
+
+2. How can you improve accessibility of images in an HTML document?
+using the alt attribute. Using the figure captioning element.
+
+3. Provide an example of when the figure element would be useful in an HTML document.
+Provide a semantic container for figures, and to clearly link the figure to the caption.
+
+4. Describe the difference between a gif image and an svg image, pretend you are explaining to an elder in your community.
+A GIF image is an image file that can be animated or still
+Scalable Vector Graphics (SVG) let you use lines, curves, and other geometric shapes to render 2D graphics. With vectors, you can create images that scale cleanly to any size.
+
+5. What image type would you use to display a screenshot on your website and why?
+USe the img element and embed the jpg/png onto my site.
+
+## Learn CSS 
+
+1. Describe the difference between foreground and background colors of an HTML element, pretend you are talking to someone with no technical knowledge.
+The background color is the main color on the page  and the foreground color is the text. 
+
+2. Your friend asks you to give his colorless blog website a touch up. How would you use color to give his blog some character?
+Add some background color and foreground color. 
+
+3. What should you consider when choosing fonts for an HTML document?
+Accessiblity.
+
+4. What do font-size, font-weight, and font-style do to HTML text elements?
+It makes them more accessible and styles the page. 
+
+5. Describe two ways you could add spacing around the characters displayed in an h1 element.
+Units and pixels.
+
+
+Things I wanted to know more about:
+What are ems when it comes to spacing.
+
+I got this information from our readings and researching google.
+
